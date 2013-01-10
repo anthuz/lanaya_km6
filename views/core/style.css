@@ -1,0 +1,56 @@
+/**
+* Description: Core theme for Lydia
+*/
+
+/**
+* Structure
+*/
+html{}
+body{
+   background-color:#eee;
+   font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header,
+#main,
+#footer {
+   margin:0 auto;
+   width:970px;
+   background-color:#fff;
+   padding: 1em;
+}
+
+.controllers {
+	margin-left: 20px;
+}
+
+/**
+ * Different colors for session status message.
+ */
+.success {
+	background-color: #33FF66;
+	border: 1px dashed;
+}
+.error {
+	background-color: #FF3333;
+	border: 1px dashed;
+}
+.warning {
+	background-color: #FF9933;
+	border: 1px dashed;
+}
+.notice {
+	background-color: #D8D8D8;
+	border: 1px dashed;
+}
+.info {
+	background-color: #D8D8D8;
+	border: 1px dashed;
+}
+.alert {
+	background-color: #FF3333;
+	border: 1px dashed #FFFF66;
+}
+
+.validation-failed{border:2px solid red;}
+.validation-message{color:red;font-size:smaller;}
